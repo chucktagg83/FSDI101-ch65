@@ -1,0 +1,10 @@
+body{
+    background-color: maroon;
+    font-family: arial, sans-serif;
+    color: gold;
+}
+h1{
+    text-align: center;
+    font-size: 75px;
+    text-decoration: underline;
+}
