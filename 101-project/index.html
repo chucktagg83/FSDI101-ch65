@@ -29,8 +29,40 @@
         <p>The Washington Commanders are a professional American football team based in the Washington, D.C. metropolitan area. They are a member of the National Football League (NFL) and compete in the league's National Football Conference (NFC) East division.History</p>
         <p>The team was established in 1932 as the Boston Braves, later changing to the Boston Redskins and then moving to Washington, D.C., in 1937.</p>
         <p>In 2022, the team rebranded as the Washington Commanders, moving away from the previous name to embrace a new identity.</p>
-        <img src="photos/stadium.jpg" alt="FedEx Field"> 
-        <p><a href="#">Read more about the History</a></p>
+        <span>
+           <img src="photos/stadium.jpg" alt="FedEx Field">
+        </span>
+        <span>
+            <form class="fanClubRegistry">
+                <h3>Join the <i><strong>Raising Hail</strong></i> Fan Club!</h3>
+                <div class="input-container">
+                    <label>Name:</label>
+                    <input type="text" id="name" name="name" required>  
+                </div>
+                <div class="input-container">
+                    <label>Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="input-container">
+                    <label>Favorite Players:</label>
+                    <textarea name="favoritePlayers" rows="4" cols="50"></textarea>
+                </div>
+                <div class="input-container">
+                    <label for="email-updates">Are you interested in receiving team email updates?</label>
+                    <select id="email-updates" name="email-updates">
+                        <option value="">--Please choose an option--</option>
+                        <option value="yes">Yes, Sign me Up!</option>
+                        <option value="no">No, Thanks</option>
+                    </select>
+                </div>
+                <div class="btn-container">
+                    <button class="btn-join" type="submit">Join Now</button>
+                </div>
+            </form>
+        </span>
+        <p><a href="#">Read more about the History</a></p>  
+        </span>
+       
     </main>
 
     <section class="championshipRings">
